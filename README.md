@@ -60,7 +60,7 @@ Esta aplicación permite organizar un **sorteo de amigo secreto** de manera senc
 ## Acceso al proyecto
 Puedes acceder y probar la aplicación en el siguiente enlace:  
 
-🔹 [Amigo Secreto - Versión en vivo](AQUÍ_VA_EL_LINK_DE_DEPLOY)  
+🔹 [Amigo Secreto - Versión en vivo](https://hiromii0721.github.io/AmigoSecreto/))  
 
 Repositorio en GitHub:  
 
