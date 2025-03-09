@@ -150,12 +150,12 @@ ul {
     color: var(--color-text);
     font-family: "Pixelify Sans", sans-serif;
     font-size: 18px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #f0bd17;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
