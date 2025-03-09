@@ -26,3 +26,43 @@ function crearLista(){
         listaAmigos.appendChild(item);
     }
 };
+
+function sortearAmigo(){
+    if(amigos.length === 0) {
+        alert("No has ingresado amigos");
+        return;
+    }
+    let amigosorteado = amigos[Math.floor(Math.random() * amigos.length)];
+
+    let resultado = document.getElementById("resultado")
+    resultado.innerHTML = `El amigo secreto es ${amigosorteado}`;
+
+    console.log(amigosorteado);
+
+    deshabilitarBoton("add");
+    deshabilitarBoton("sorteo");
+
+    habilitarBoton("reiniciar");
+};
+
+function deshabilitarBoton (ID) {
+    document.getElementById(ID).setAttribute("disabled", 'true');
+}
+
+function habilitarBoton (id) {
+    document.getElementById(id).removeAttribute("disabled")
+}
+
+function reiniciarJuego () {
+    amigos = [];
+
+    let limpiarList = document.getElementById("listaAmigos");
+    limpiarList.innerHTML = "";
+
+    let limpiarResult = document.getElementById("resultado");
+    limpiarResult.innerHTML = "";
+
+    habilitarBoton("add");
+    habilitarBoton("sorteo");
+    deshabilitarBoton("reiniciar");
+}
